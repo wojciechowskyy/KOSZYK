@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+body {
+    background-color:gray ;
+}
+nav {
+    width: 100vw;
+    display: flex;
+    background-color: black; 
+    padding: 8px 0;
+    height: 10vh;
+    flex-direction: row;
+    
+}
+form {
+    justify-content: center;
+    margin-left: 10vw;
+    padding-top: 1.5vh; 
+}
+input {
+    height: 50px;
+    font-size: large;
+    background-color: black;
+    border-color: white;
+    padding-left: 20px;
+    border: 0.1px solid white;
+    color: white;
+}
+.konto:hover {
+    color: gray;
+}
+::placeholder {
+    color: white;
+}
+.wroc {
+    padding-top: 1.5vh;
+    margin-left: 25vw;
+}
+.wroc a:hover {
+    color: gray;
+}
+.wroc a {
+    color: white;
+    text-decoration: none;
+}
+
+.przyciski {
+    height: 10vh;
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+.zdj {
+    height: 10vh;
+    width: 25%;
+    margin-left: 2vw;
+}
+.koszyk{
+    padding-top: 1.5vh;
+}
+.koszyk a {
+    color: gray;
+    text-decoration: none;
+    padding-left: 2vw;
+}
+.pc img {
+    height: 250px;
+    width: 250px;
+}
+.pc {
+    width: 100%;
+    display: flex;
+    background-color: gray;
+    float: left;
+    color: white;
+    justify-content: flex-start;
+    position: relative;
+}
+.kup input {
+    width: 100px;
+    height: 50px;
+    padding-right: 20px;
+    margin-right: 16px;
+}
+.kup h2 {
+    margin-left: 2px;
+    width: 100px;
+    margin-top: 120px;
+    font-size: 22px;
+}
+.kup input:hover {
+    background-color: gray;
+}
+hr {
+    width: 100%;
+    background-color: black;
+}

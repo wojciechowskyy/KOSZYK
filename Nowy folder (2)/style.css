@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+body {
+    background-color: gray;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    background-color: black; 
+    padding: 8px 0;
+    height: 10vh;
+    flex-direction: row;
+    
+}
+form {
+    justify-content: center;
+    margin-left: 10vw;
+    padding-top: 1.5vh; 
+}
+input {
+    height: 50px;
+    font-size: large;
+    background-color: black;
+    border-color: white;
+    padding-left: 20px;
+    border: 0.1px solid white;
+    color: white;
+}
+.konto:hover {
+    color: gray;
+}
+::placeholder {
+    color: white;
+}
+.koszyk a:hover{
+    color: gray;
+}
+
+.user {
+    padding-top: 1.5vh;
+    margin-left: 25vw;
+}
+.user a {
+    color: white;
+    text-decoration: none;
+}
+.user a li ul {
+    font-size: 100px;
+    
+}
+.user ul li{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.user ul li a {
+    padding-left: 1rem;
+}
+.user ul {
+    background-color: black;
+    position: absolute;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    border-radius: 7px;
+    display: none;
+}
+.user ul li:hover {
+    background-color: gray;
+    transition: 0.2s;
+}
+.user a:focus +ul,
+.user a:hover +ul,
+.user ul:hover {
+    display: block;
+    transition: 0.1s;
+}
+
+.przyciski {
+    height: 10vh;
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+.zdj {
+    height: 10vh;
+    width: 25%;
+    margin-left: 2vw;
+}
+.koszyk{
+    padding-top: 1.5vh;
+}
+.koszyk a {
+    color: white;
+    text-decoration: none;
+    padding-left: 2vw;
+}
+h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 20vh;
+}
